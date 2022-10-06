@@ -2,7 +2,7 @@
 
 describe('My First Test', () => {
 
-  it('verify title-positive test', () => {
+  it('verify title-positive test', function() {
     cy.visit("https://opensource-demo.orangehrmlive.com/")
     cy.title().should('eq','OrangeHRM')
   })
