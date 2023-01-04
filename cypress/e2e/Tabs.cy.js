@@ -1,4 +1,3 @@
-const { it } = require("mocha");
 
 describe("Handle tabs", ()=>{
 
