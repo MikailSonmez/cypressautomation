@@ -1,7 +1,8 @@
 
 describe("Check UI Elements", ()=>{
 
-    /*it("Checking Radio Buttons", ()=>{
+
+    /* it("Checking Radio Buttons", ()=>{
 
         cy.visit("https://itera-qa.azurewebsites.net/home/automation")
 
@@ -10,7 +11,7 @@ describe("Check UI Elements", ()=>{
         cy.get("input#male").should('be.visible')
         cy.get("input#female").should('be.visible')
 
-        // visiblity of radio buttons
+        // visiblity of radio buttonss
         cy.get("input#male").check().should('be.checked')
         cy.get("input#female").should('not.be.checked')
 
@@ -42,6 +43,8 @@ describe("Check UI Elements", ()=>{
         // select first checkbox
         cy.get("input.form-check-input[type='checkbox']").first().check()
         cy.get("input.form-check-input[type='checkbox']").last().check()
+
+
 
     })
 
